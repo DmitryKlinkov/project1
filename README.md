@@ -1,34 +1,11 @@
-# Quick Start
-## Windows
-### Создание виртуального окружения
-```
-pip install virtualenv
-virtualenv venv
-venv\Scripts\activate
-```
-### Установка зависимостей
-```
-pip install requirements.txt
-```
-### Добавление переменной окружения и режим отладки
-```
-set FLASK_APP=flasky.py
-set FLASK_DEBUG=1
-```
-### Регистрация SMTP и почта администратора
-```
-set MAIL_USERNAME=почта
-set MAIL_PASSWORD=пароль
-set FLASKY_ADMIN=почта
-```
-### Работа с базой данных
-```
-flask db init
-flask db migrate
-flask db upgrade
-```
-### Тестирование и запуск приложения
-```
-flask test
-flask run
-```
+Flasky
+======
+
+This repository contains the source code examples for the second edition of my O'Reilly book [Flask Web Development](http://www.flaskbook.com).
+
+The commits and tags in this repository were carefully created to match the sequence in which concepts are presented in the book. Please read the section titled "How to Work with the Example Code" in the book's preface for instructions.
+
+For Readers of the First Edition of the Book
+--------------------------------------------
+
+The code examples for the first edition of the book were moved to a different repository: [https://github.com/miguelgrinberg/flasky-first-edition](https://github.com/miguelgrinberg/flasky-first-edition).
