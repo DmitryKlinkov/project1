@@ -8,7 +8,7 @@ venv\Scripts\activate
 ```
 ### Установка зависимостей
 ```
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 ### Добавление переменной окружения и режим отладки
 ```
